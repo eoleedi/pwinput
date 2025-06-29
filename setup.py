@@ -17,12 +17,13 @@ with io.open("README.md", encoding="utf-8") as fileObj:
     long_description = fileObj.read()
 
 setup(
-    name="pwinput",
+    name="pwinput-eoleedi",
     version=version,
-    url="https://github.com/asweigart/pwinput",
-    author="Al Sweigart",
-    author_email="al@inventwithpython.com",
-    description=("""A cross-platform Python module that displays **** for password input. Works on Windows, unlike getpass. Formerly called stdiomask."""),
+    url="https://github.com/eoleedi/pwinput",
+    author="Fong-Chun Tsai",
+    author_email="eoleedimin@gmail.com",
+    description=("""A cross-platform Python module that displays **** for password input. Works on Windows, unlike getpass. Formerly called stdiomask. (custom fork by Eoleedi
+                 Originally by Al Sweigart)"""),
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT",
